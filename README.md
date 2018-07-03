@@ -1,11 +1,16 @@
 # assignment-aid-tool
-This tool is designed to help me increase efficiency when navigating and downloading assignments for each course in second, save me the time to go to website of each course and download; Also it has the feature to calculate marks according to course syllabus, extracting information from piazza
+This tool is designed to help me increase efficiency when navigating and downloading assignments for each course in second, save me the time to go to website of each course and download; 
 
 Language used: Python & Python framework : Scrapy
 
-input: my current courses
+input: my current courses, assignment number
+output: save the assignment pdf if there are on the destop
 
-features:
-1. Download assignment 
-2. Calculate marks
-3. extracting information from piazza
+features:  Download assignment 
+
+How it works:
+scrapy crawl da -a "course=348,3"
+  course number is cs348 
+  assignment number want to be downloaded : a3
+
+
